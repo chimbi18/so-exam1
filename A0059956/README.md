@@ -36,4 +36,8 @@ Para obtener la evidencia de la instalación clonamos el repositorio al que esta
 
 Para la exportación de la máquina virtual en el VirtualBox seleccionamos en la pestaña de archivo la opción de exportar servicio virtualizado, y seleccionamos la máquina virtual que vamos a exportar que en el caso se llama Debian 9, damos click en siguiente y elegimos la ubicación en que queremos que guardar la máquina exportada, damos click exportar y esperamos que complete el proceso de exportación en el lugar definido.
 
+**IMPORTACIÓN DE MÁQUINA VIRTUAL**
+Abrimos VirtualBox seleccionamos la pestaña archivo y luego importar servicio virtualizado, luego buscamos la dirección en que se encuentra la unidad virtual exportada , damos click en siguiente y luego en el botón de importar y luego esperamos que cargue y posteriormente podemos inicializar la máquina virtual en cualquier otro computador
+
+
 
