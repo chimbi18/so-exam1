@@ -13,7 +13,8 @@ Tercero procedemos a cargar la imagen del debian en formato .iso para realizar l
 
 **INSTALACIÓN DEL SISTEMA OPERATIVO DEBIAN SERVER 9**
 
-La instalación se inicia abriendo virtualBox y se añade el nuevo disco virtual dando click en nueva, luego escribimos el nombre del sistema operativo y seleccionamos el sistema operativo de la máquina que vamos a crear y el sistema operativo que vamos a usar y le damos click en siguiente.
+La instalación se inicia abriendo virtualBox y se añade el nuevo disco virtual dando click en nueva, luego escribimos el nombre del sistema operativo y seleccionamos el sistema operativo de la máquina que vamos a crear y el sistema operativo que vamos a usar y le damos click en siguiente.  
+![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/ConfiguracionInterfazPrivada(1).png)  
 
 Luego de hacer lo anterior seleccionamos el tamaño de la memoria Ram que asignaremos a nuestra nueva máquina. De acuerdo a las especificaciones de mi computador le asigne 512 Mb y damos click en siguiente. Luego seleccionamos la opción de crear un disco virtual y se crea, le deje el tamaño que viene por defecto fue de 8 GB y con ello creamos el nuevo disco duro virtual seleccionando la opción de VirtualBox Disk Image y posteriormente seleccionamos la opción de memoria fija que es la opción de "fixed size" luego damos click en la opción de crear. Con esta configuración estará lista la unidad virtual para ser arrancada luego.
 
