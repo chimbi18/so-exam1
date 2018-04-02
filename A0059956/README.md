@@ -23,7 +23,7 @@ Cuando este la configuración en el menú de de las máquinas que tenemos proced
 **CONFIGURACIÓN DE INTERFAZ PRIVADA**
 
 Accedemos a la máquina virtual debian desde el virtualBOx y accedemos a la terminal para conocer la ip con el comando "ip a" el cual mostró una ip 192.168.1.52
-Luego procedemos a abrir el MTPutty y seleccionamos la opción de añadir servidor e ingresamos en el nombre la ip que fue mostrada por el Debian con el comando anterior, y adicionalmente añadimos al campo del puerto el número 22, y el protocolo de comunicación SSH , adicionalmente agregamos la contraseña y el usuario que creamos en la instalación de Debian es opcional, los datos correspondientes a la máquina virtual son **usuario: ** chimbi y **Contraseña: ** 19970718chimbi** , luego de haber realizado esta configuración procedemos a iniciar en MTPutty la sesión correspondiente a la IP.
+Luego procedemos a abrir el MTPutty y seleccionamos la opción de añadir servidor e ingresamos en el nombre la ip que fue mostrada por el Debian con el comando anterior, y adicionalmente añadimos al campo del puerto el número 22, y el protocolo de comunicación SSH , adicionalmente agregamos la contraseña y el usuario que creamos en la instalación de Debian es opcional, los datos correspondientes a la máquina virtual son **usuario :** chimbi y **Contraseña:** 19970718chimbi , luego de haber realizado esta configuración procedemos a iniciar en MTPutty la sesión correspondiente a la IP.
 
 **INSTALACIÓN DE GIT Y TIG**
 
@@ -32,5 +32,8 @@ Luego utilizamos el comando apt-get install tig para la instalación de tig.
 
 Para obtener la evidencia de la instalación clonamos el repositorio al que estamos realizando los commits https://github.com/chimbi18/so-exam1.git y luego de que se haya clonado accedemos a la carpeta en la que estamos trabajando, nos movemos en la carpeta con el comando cd so-exam1/ y una vez ubicados en este directorio escribimos el comando **tig** para que nos muestre en la pantalla los commits que se han realizado.
 
+**EXPORTACIÓN DE MAQUINA VIRTUAL**
+
+Para la exportación de la máquina virtual en el VirtualBox seleccionamos en la pestaña de archivo la opción de exportar servicio virtualizado, y seleccionamos la máquina virtual que vamos a exportar que en el caso se llama Debian 9, damos click en siguiente y elegimos la ubicación en que queremos que guardar la máquina exportada, damos click exportar y esperamos que complete el proceso de exportación en el lugar definido.
 
 
