@@ -39,5 +39,17 @@ Para la exportación de la máquina virtual en el VirtualBox seleccionamos en la
 **IMPORTACIÓN DE MÁQUINA VIRTUAL**
 Abrimos VirtualBox seleccionamos la pestaña archivo y luego importar servicio virtualizado, luego buscamos la dirección en que se encuentra la unidad virtual exportada , damos click en siguiente y luego en el botón de importar y luego esperamos que cargue y posteriormente podemos inicializar la máquina virtual en cualquier otro computador
 
+**CUADRO COMPARATIVO**
 
+ **CentOS7** | **Debian 9** | **Explicacion**
+ --- | --- | ---
+ Peso mayor | Peso menor | Debian 9 es mejor debido a que trata de instalar solo lo más necesario
+Mayor consumo de Disco duro| Menor consumo de disco duro |al no instalar paquetes que no usaremos jamás debian, se ahorra bastante espacio.
+Es más usada que Debian | Es menos usada que CentOS 7 | CentOS7 es más usada por que cuenta con el respaldo de una compañia RedHat Enterprise
+Actualización más complicada | Actualización más facil | la misma pagina de CentOS para actualizaciones prefiere que se instalen cosas desde cero e incluso en las instrucciones de hacer un upgrade te desea mucha suerte
+Es una de las distribuciones más estables al igual que Debian|Es una de las distribuciones más estables al igual que CenOS7 | son versiones muy estables por que las empresas tienen el proposito de probar todo
+frecuencia de actualizaciones menor Apache -> 2.2.15 PHP -> 5.3.3 MySQL -> 5.1.66 PostgreSQL -> 8.4.13 | frecuencia de actualizaciones mayor Apache -> 2.2.22 PHP -> 5.4.4 MySQL -> 5.5.30 PostgreSQL -> 9.1.9 | las frecuencias de actualización más recientes las tiene Debian debido a que por lo general tiene las versiones más recientes
+tamaño instalador mayor|tamaño instalador menor| la diferencia entre los instaladores es de varias Gb favoreciendo a Debian en cerca de 4Gb de diferencia
+Consume Ram y Procesador obligatoriamente por la GNU|ventaja de trabajar mediante mucho SSH porque puede usar menor recursos d eRAM y Proecesador al no usar interfaz| Debian supera a CentOS porque no instala un entorno gráfico por defecto 
+utiliza un package manager Yum y la funcion yum install es más lento que el de debian| el package manager “apt-get install && apt-get upgrade”  es más rapido | son más rapidos los procesos de Instalacion del Debian que el CentOS7 en la instalacion de paquetes y actualizaciones porque descaga solo lo necesario
 
