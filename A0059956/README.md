@@ -73,10 +73,11 @@ Para la exportación de la máquina virtual en el VirtualBox seleccionamos en la
 **IMPORTACIÓN DE MÁQUINA VIRTUAL**
 Abrimos VirtualBox seleccionamos la pestaña archivo y luego importar servicio virtualizado, luego buscamos la dirección en que se encuentra la unidad virtual exportada , damos click en siguiente y luego en el botón de importar y luego esperamos que cargue y posteriormente podemos inicializar la máquina virtual en cualquier otro computador
 
-![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/importarMaquinaVirual(1).png)
+![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/importar1.png)
 
-![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/importarMaquinaVirual(2).png) 
+![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/importar2.png) 
 
+![alt text](https://github.com/chimbi18/so-exam1/blob/master/A0059956/importar3.png) 
 
 **CUADRO COMPARATIVO**
 
